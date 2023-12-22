@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Threads+",
+  "version": "1.0",
+  "description": "Fixes the Threads UI",
+  "icons": {
+    "48": "icons/threads-plus-48.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.threads.net/*"],
+      "js": ["plus.js"]
+    }
+  ]
+}
